@@ -55,7 +55,7 @@ public class Main {
             // new ScaredyBot()
             new RealisticPacifist(),
             new ChaoticWalkerIII(),
-            //new JazzJock(), //why the actual fuck does uncommenting this break it
+            new JazzJock(), // so apparently this single line demands that you build explicitly before running
             new WeightCrab()
         };
 
