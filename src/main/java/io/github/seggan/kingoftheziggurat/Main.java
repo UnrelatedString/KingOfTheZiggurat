@@ -7,6 +7,7 @@ import io.github.seggan.kingoftheziggurat.bots.ScaredyBot;
 
 import io.github.seggan.kingoftheziggurat.bots.RealisticPacifist;
 import io.github.seggan.kingoftheziggurat.bots.ChaoticWalkerIII;
+import io.github.seggan.kingoftheziggurat.bots.JazzJock;
 import io.github.seggan.kingoftheziggurat.bots.WeightCrab;
 
 import java.util.ArrayList;
@@ -54,6 +55,7 @@ public class Main {
             // new ScaredyBot()
             new RealisticPacifist(),
             new ChaoticWalkerIII(),
+            //new JazzJock(), //why the actual fuck does uncommenting this break it
             new WeightCrab()
         };
 
