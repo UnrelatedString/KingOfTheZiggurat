@@ -5,6 +5,10 @@ import io.github.seggan.kingoftheziggurat.bots.BotWrapper;
 import io.github.seggan.kingoftheziggurat.bots.RandomBot;
 import io.github.seggan.kingoftheziggurat.bots.ScaredyBot;
 
+import io.github.seggan.kingoftheziggurat.bots.RealisticPacifist;
+import io.github.seggan.kingoftheziggurat.bots.ChaoticWalkerIII;
+import io.github.seggan.kingoftheziggurat.bots.WeightCrab;
+
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -46,9 +50,11 @@ public class Main {
         // Add your bots here
         Bot[] bots = new Bot[]{
             new AttackBot(),
-            new RandomBot(),
-            new ScaredyBot(),
-            new BotWrapper("python", "bot.py")
+            // new RandomBot(),
+            // new ScaredyBot()
+            new RealisticPacifist(),
+            new ChaoticWalkerIII(),
+            new WeightCrab()
         };
 
         int index;
